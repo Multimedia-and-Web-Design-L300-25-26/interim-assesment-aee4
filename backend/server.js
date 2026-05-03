@@ -40,7 +40,7 @@ async function start() {
     console.log('MongoDB connected');
 
     app.listen(PORT, () => {
-      console.log(`Server listening on port ${PORT}`);
+      console.log(`Server running on port ${PORT}`);
     });
   } catch (error) {
     console.error(error);
