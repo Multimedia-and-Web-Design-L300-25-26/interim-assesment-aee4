@@ -64,11 +64,7 @@ async function login(req, res) {
       return res.status(500).json({ message: 'JWT_SECRET is not set.' });
     }
 
-    const token = jwt.sign(
-      { _id: user._id, email: user.email },
-      process.env.JWT_SECRET,
-      { expiresIn: '7d' },
-    );
+    const token = jwt.sign({ _id: user._id, email: user.email }, process.env.JWT_SECRET, { expiresIn: '7d' });
 
     res.cookie('token', token, getCookieOptions());
 
