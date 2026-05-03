@@ -1,0 +1,31 @@
+{
+  "name": "interim-assesment-aee4",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bMYWKvYv)\r # Interim Assessment: Full-Stack Integration – Coinbase Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multimedia-and-Web-Design-L300-25-26/interim-assesment-aee4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Multimedia-and-Web-Design-L300-25-26/interim-assesment-aee4/issues"
+  },
+  "homepage": "https://github.com/Multimedia-and-Web-Design-L300-25-26/interim-assesment-aee4#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.1"
+  }
+}
